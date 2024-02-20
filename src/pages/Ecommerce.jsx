@@ -23,7 +23,7 @@ const Ecommerce = () => {
             </div>
             <button 
             type='button'
-            style={{ backgroundColor: "blue"}}
+            style={{ backgroundColor: currentColor}}
             className="text-2xl opacity-0.9 text-white hover:drop-shadow-xl rounded-full p-4">
               <BsCurrencyDollar/>
             </button>
@@ -31,7 +31,7 @@ const Ecommerce = () => {
           <div className='mt-6'>
             <Button
              color="white"
-             bgColor="blue"
+             bgColor={currentColor}
              text="Download"
              borderRadius="10px"
             />
@@ -103,7 +103,7 @@ const Ecommerce = () => {
               
               <Button
                 color="white"
-                bgColor="blue"
+                bgColor={currentColor}
                 text="Download Report"
                 borderRadius="10px"
               />
